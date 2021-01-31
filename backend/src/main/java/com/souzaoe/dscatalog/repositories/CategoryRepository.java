@@ -3,10 +3,10 @@ package com.souzaoe.dscatalog.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.souzaoe.dscatalog.entities.Product;
+import com.souzaoe.dscatalog.entities.Category;
 
 @Repository
-public interface CategoryRepository extends JpaRepository<Product, Long> {
+public interface CategoryRepository extends JpaRepository<Category, Long> {
 	
 
 }
